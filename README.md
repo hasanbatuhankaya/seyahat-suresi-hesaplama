@@ -1,0 +1,1 @@
+# seyehat-suresi-hesaplama
