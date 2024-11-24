@@ -116,9 +116,11 @@ yol_km=data[plaka_kodu1-1][plaka_kodu2-1]
 if varis_dakika>=60:
     varis_saat+=1
     varis_dakika-=60
-if varis_saat>24:
-    varis_saat-=24
-    
+for i in range(5):
+    if varis_saat>24:
+        varis_saat-=24
+
+  
 varis_dakika=int(varis_dakika)
 zaman_dakika=int(zaman_dakika)
 if varis_dakika<10:
